@@ -12,40 +12,63 @@
 <body>
     <!-- siteyi bu containerın içinde kodlayacağız. -->
     <!-- my : y ekseninde marjin demek -->
-     <!-- 6 sütun elde ettik -->
-    <div class="container my-2 p-3 text-white">
+   
+    <div class="container my-9 mt-1 ">
 
-        <!-- site top -->
-       <div class="row text-secondary  ">
-        <div class="col-6 py-1 "><img src="img/logo.jpg" alt="" class="img-fluid"></div>
-        <div class="col-2 py-1">Ana Sayfa</div>
-        <div class="col-2 py-1 ">Hakkımızda</div>
-        <div class="col-2 py-1 ">İletişim</div>
+        <!-- logo top -->
+       <div class="row">
+        <div class="col-12 py-3 d-flex"><img src="img/logo.jpg" alt="" class="img-fluid mx-auto"></div>
        </div>
-
-       <!-- sidebar and content -->
-       <div class="row mt-2">
-        <div class="col-md-3 py-3 bg-danger ">
-            <h2>DERSLER</h2>
-            <ul class="li">1</ul>
-            <ul class="li">2</ul>
-            <ul class="li">3</ul>
-            <ul class="li">4</ul>
-            <ul class="li">5</ul>
-            
-        </div>
-        <div class="col-md-9  py-3 bg-white border text-dark">content</div>
-       </div>
-        
-
       
+        <!-- navbar -->
+        <div class="row mt-1 row-cols ">
+            <div class="col">
+                <ul class="nav  nav-tabs nav-expand-md justify-content-center " id="mytab" role="tablist">
+                    <!-- anasayfa -->
+                    <li class="nav-item " role="presentation">
+                        <button type="button" class="nav-link text-danger active" id="Thome" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true">Anasayfa</button>
+                    </li> 
+                    <!-- dilbilgisi -->
+                    <li class="nav-item" role="presentation">
+                        <button type="button" class="nav-link text-danger" id="Tprofile" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="profile" aria-selected="false">Dilbilgisi</button>
+                    </li> 
+                    <!-- sözlük -->
+                    <li class="nav-item" role="presentation">
+                        <button type="button" class="nav-link text-danger" id="Tvocab" data-bs-toggle="tab" data-bs-target="#vocab" role="tab" aria-controls="vocab" aria-selected="false">Sözlük</button>
+                    </li> 
+                    <!-- okuma -->
+                    <li class="nav-item" role="presentation">
+                        <button type="button" class="nav-link text-danger" id="Texam" data-bs-toggle="tab" data-bs-target="#exam" role="tab" aria-controls="exam" aria-selected="false">Sınavlar</button>
+                    </li> 
+                    
+                    <!-- kitaplar -->
+                    <li class="nav-item" role="presentation">
+                        <button type="button" class="nav-link text-danger" id="Tproduct" data-bs-toggle="tab" data-bs-target="#product" role="tab" aria-controls="product" aria-selected="false">Ürünler</button>
+                    </li> 
+
+                   
+                    
+                    
+                    
+
+
+
+                </ul>
+            </div>
+        </div>
+       
+       
+       <!-- footer alt kısma gelecek -->
+       
+       
+       
+        
     </div>
    
    
    
    
-   
-   
+      
 
 
 
@@ -54,4 +77,5 @@
     <!-- Latest compiled and minified JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body> 
+
 </html>

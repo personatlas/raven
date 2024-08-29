@@ -1,6 +1,16 @@
 
 
-.deneme {
-    font-size: 22px;
-    background-color: brown;
-}
+footer {
+    background-color: #222;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #ddd;
+    text-decoration: none;
+  }
+
+
